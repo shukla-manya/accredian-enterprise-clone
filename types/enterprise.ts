@@ -2,7 +2,6 @@ export type NavItem = {
   id: string;
   label: string;
 };
-
 export type Stat = {
   label: string;
   value: string;
