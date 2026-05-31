@@ -5,7 +5,6 @@ type SectionProps = {
   children: React.ReactNode;
   className?: string;
 };
-
 export function Section({ id, title, subtitle, children, className }: SectionProps) {
   return (
     <section id={id} className={`section ${className ?? ""}`.trim()}>
