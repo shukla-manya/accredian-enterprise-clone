@@ -5,7 +5,6 @@ import type { NavItem } from "@/types/enterprise";
 type NavbarProps = {
   items: NavItem[];
 };
-
 export function Navbar({ items }: NavbarProps) {
   const [open, setOpen] = useState(false);
 
