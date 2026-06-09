@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import type { NavItem } from "@/types/enterprise";
-
 type NavbarProps = {
   items: NavItem[];
 };
